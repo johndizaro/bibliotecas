@@ -1,2 +1,4 @@
 # Bibliotecas uteis 
-!https://travis-ci.org/johndizaro/bibliotecas.svg?branch=master!:https://travis-ci.org/johndizaro/bibliotecas
+
+[![Build Status](https://travis-ci.org/johndizaro/bibliotecas.svg?branch=master)](https://travis-ci.org/johndizaro/bibliotecas)
+
