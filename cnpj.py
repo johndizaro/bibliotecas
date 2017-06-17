@@ -76,9 +76,3 @@ class Cnpj:
 
         return "%s.%s.%s/%s-%s" % (cnpj[0:2], cnpj[2:5], cnpj[5:8], cnpj[8:12], cnpj[12:14])
 
-
-if __name__ == '__main__':
-    print(Cnpj().validate('64623626000137'))
-    print(Cnpj().validate('41.161.794/0001-52'))
-    print(Cnpj().format('64623626000137'))
-    print(Cnpj().format('41.161.794/0001-52'))

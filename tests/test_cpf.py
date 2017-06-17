@@ -1,4 +1,4 @@
-from cpf import ValidaCpf
+from cpf import Cpf
 import unittest
 
 
@@ -7,7 +7,7 @@ import unittest
 
 class CpfTest(unittest.TestCase):
     def setUp(self):
-        self.x = ValidaCpf()
+        self.x = Cpf()
 
     def tearDown(self):
         pass

@@ -1,7 +1,7 @@
 import re
 
 
-class ValidaCpf:
+class Cpf:
     def formatador(self, cpf):
 
         valido = re.match('\d{11}', str(cpf))
